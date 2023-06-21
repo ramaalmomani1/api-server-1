@@ -4,8 +4,7 @@
 
 const express = require('express');
 const {Clothes}=  require('../models/index')
-const router = express.Router(); // we use it for creating a (HTTP) methods (get,update,..)
-
+const router = express.Router(); 
 
 router.post('/clothes', createClothesInstance);
 router.get ('/clothes', findAllClothesRecords)
@@ -48,3 +47,7 @@ async function deleteClothesRecord(req,res){
 
 
 module.exports = router;
+
+
+/*this code exports an Express router that defines routes for creating, retrieving, updating,
+ and deleting clothes records in the database using the 'Clothes' model.*/

@@ -12,3 +12,6 @@ color: {
 });
 
 module.exports = food;
+
+/*this code defines a Sequelize model for the 'FOOD' table with specific column definitions.
+ It allows for managing and interacting with food-related data in a database using Sequelize.*/
