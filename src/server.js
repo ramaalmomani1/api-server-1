@@ -1,6 +1,7 @@
-'use strict'
+'use strict' //the code should be executed in strict mode
 
-const express = require('express');
+
+const express = require('express'); 
 const cors = require('cors');
 const pageNotFound = require('./err/404')
 const serverError = require('./err/500')
@@ -34,3 +35,7 @@ module.exports = {
     start,
     app
 }
+
+/* This code sets up an Express server with CORS support, JSON parsing middleware, route handlers for food and clothes endpoints,
+ and error handling middleware for server errors and page not found. 
+It exports a start function to start the server and the Express application itself.*/

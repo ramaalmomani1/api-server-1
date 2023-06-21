@@ -1,6 +1,6 @@
 'use strict'
 
-require('dotenv').config()
+require('dotenv').config() //
 
 const supertest = require('supertest')
 const { app } = require('../src/server')
@@ -58,3 +58,6 @@ describe('test server', () => {
     })
 
 })
+
+/* This code performs testing for the server's routes related to the 'food' model. It verifies the functionality of creating, retrieving, updating, and deleting food records,
+ and ensures that the expected status codes are returned.*/

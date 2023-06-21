@@ -48,3 +48,5 @@ async function deleteFoodRecord(req,res){
 
 
 module.exports = router;
+
+// This code exports an Express router object that defines various routes for handling CRUD operations on the 'Food' model
